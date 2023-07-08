@@ -1,0 +1,81 @@
+h1,p{
+    text-align: center;
+}
+body{
+    margin:20px;
+}
+fieldset{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/312/916/non_2x/student-showing-thumbs-up-3d-illustration-chartoon-character-cute-boy-png.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: 5px;
+}
+form{
+    min-width: 300px;
+    max-width: 600px;
+    margin:0 auto;
+}
+label{
+    display: block;
+    margin:20px auto;
+}
+textarea{
+    width: 400px;
+    height:100px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+input[type="submit"]{
+    display: block;
+    margin:20px auto;
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    display: grid;
+    width:200px;
+    height: 25px;
+    border-radius: 1rem;
+    border-color: 1px solid rgb(4, 9, 112);
+    margin: 10px 0;
+}
+select{
+    border-radius: 2rem;
+    width:fit-content;
+}
+input[type="email"]:hover{
+    border-color: crimson;
+    border-width: 3px;
+}
+input[type="text"]:hover{
+    border-color: crimson;
+    border-width: 3px;
+}
+input[type="number"]:hover{
+    border-color: crimson;
+    border-width: 3px;
+}
+select:hover{
+    border-color: crimson;
+    border-width: 2px;
+}
+textarea:hover{
+    border-color: crimson;
+    border-width: 2px;
+    color:mediumblue;
+}
+input[type="radio"]:hover{
+    box-shadow: 0px 0px 4ch 0px red;
+}
+input[type="checkbox"]:hover{
+    box-shadow: 0px 0px 4ch 0px red;
+}
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 5px 0px rgb(31, 240, 255);
+}
+input[type="submit"]{
+    background:darkblue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+textarea{
+    background-color: transparent;
+}
